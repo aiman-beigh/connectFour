@@ -1,0 +1,28 @@
+#board{
+    height: 540px;
+    width: 630px;
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.move{
+    text-align: center;
+}
+.tile{
+height: 70px;
+width: 70px;
+background-color: white;
+border-radius: 50%;
+border: 5px solid gray;
+margin: 5px;
+}
+.player-one{
+    background-color: rgb(194, 144, 144);
+}
+.player-two{
+    background-color: rgb(133, 141, 209);
+}
+.taken{
+    border: none;
+}
